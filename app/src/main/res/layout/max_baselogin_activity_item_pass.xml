@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y_space_100"
+    android:layout_marginLeft="@dimen/y_space_20"
+    android:layout_marginRight="@dimen/y_space_20"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/baselogin_passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="请输入密码"
+        android:password="true"
+        android:textColor="#2d2d2d"
+        android:textColorHint="@color/common_text_hint"
+        android:textSize="@dimen/y_space_28" />
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y_space_120"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/textspace_10">
+
+    <EditText
+        android:id="@+id/baselogin_accountET"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="请输入手机号码"
+        android:textColor="#2d2d2d"
+        android:textSize="@dimen/y_space_28" />
+
+    <View
+        android:layout_width="@dimen/y_space_1"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/y_space_10"
+        android:layout_marginTop="@dimen/y_space_10"
+        android:background="#c2c2c2" />
+
+    <TextView
+        android:id="@+id/baselogin_codeET"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="获取验证码"
+        android:textColor="#eb7118"
+        android:textColorHint="@color/common_text_hint"
+        android:textSize="@dimen/y_space_28" />
+</LinearLayout>
+

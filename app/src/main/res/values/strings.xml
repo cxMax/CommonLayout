@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CommonLayout</string>
+    <string name="common_male">男</string>
+    <string name="max_baselogin_name_hint">请输入姓名</string>
+</resources>

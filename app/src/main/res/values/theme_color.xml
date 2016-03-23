@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- day -->
+    <color name="day_colorPrimary">#262e40</color>
+    <color name="day_colorPrimaryDark">#1e2432</color>
+    <color name="day_textColor">#333333</color>
+    <color name="day_infoTextColor">#999999</color>
+    <color name="day_layout_bg_normal">#f6f6f6</color>
+    <color name="day_layout_bg_pressed">#dfdfdf</color>
+    <color name="day_line_color">#cdcdcd</color>
+    <color name="day_windows_bg">#fafafa</color>
+    <color name="day_edit_color">#333333</color>
+    <color name="day_edit_hit_color">#999999</color>
+    <color name="day_button_bgbule_color">#39aaf1</color>
+    <color name="day_button_bgbule_pressed">#cc39aaf1</color>
+    <color name="day_window_background">#e6e6e6</color>
+    <color name="day_button_bggray_color">#a9a9a9</color>
+    <color name="day_button_bggray_pressed">#c3c3cc</color>
+    <color name="day_button_bgwhite_color">#ffffff</color>
+    <color name="day_button_bgwhite_pressed">#dedede</color>
+
+    <color name="day_actionbar_shape_backgound">#1e2432</color>
+    <color name= "day_actionbar_selector_pressed">#262e40</color>
+</resources>

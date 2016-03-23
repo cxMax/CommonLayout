@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_Ll"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y_space_100">
+
+    <RelativeLayout
+        android:id="@+id/actionbar_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_basecolor">
+        //左边
+
+        <TextView
+            android:id="@+id/top_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/actionbar_selector_pressed_lift"
+            android:drawableLeft="@mipmap/title_back_s"
+            android:gravity="center_vertical|left"
+            android:minWidth="@dimen/y_space_120"
+            android:paddingLeft="@dimen/y_space_16"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textSize="@dimen/textspace_18"/>
+        //中间
+
+        <TextView
+            android:id="@+id/top_center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textSize="@dimen/textspace_18" />
+
+        //右边
+
+        <TextView
+            android:id="@+id/top_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/actionbar_selector_pressed_right"
+            android:gravity="center_vertical|right"
+            android:minWidth="@dimen/y_space_120"
+            android:paddingRight="@dimen/y_space_16"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textSize="@dimen/textspace_18" />
+    </RelativeLayout>
+</LinearLayout>

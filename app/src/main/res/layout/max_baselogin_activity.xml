@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/base_actionbar"
+        layout="@layout/max_base_activity_actionbar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/login_optionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/login_hintTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/y_space_20"
+        android:text="6-14位密码,建议数字、字母、符号组合"
+        android:textColor="#2d2d2d"
+        android:textSize="@dimen/y_space_28"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/login_signTV"
+        android:layout_width="@dimen/y_space_600"
+        android:layout_height="@dimen/y_space_80"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/y_space_10"
+        android:layout_marginRight="@dimen/y_space_10"
+        android:layout_marginTop="@dimen/y_space_20"
+        android:background="@drawable/common_btn_send_shape"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="@dimen/y_space_30" />
+
+    <!-- 忘记密码 -->
+
+    <TextView
+        android:id="@+id/login_forgetTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/y_space_20"
+        android:layout_marginTop="@dimen/y_space_80"
+        android:text="忘记密码?"
+        android:textColor="#409be4"
+        android:textSize="@dimen/y_space_28"
+        android:visibility="gone" />
+
+    <!-- 阅读用户协议 -->
+
+    <LinearLayout
+        android:id="@+id/login_readTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/y_space_50"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阅读并接受"
+            android:textColor="#2d2d2d"
+            android:textSize="@dimen/y_space_28" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="《用户注册协议》"
+            android:textColor="#409be4"
+            android:textSize="@dimen/y_space_28" />
+    </LinearLayout>
+
+    <!-- 账号密码登录 -->
+
+    <TextView
+        android:id="@+id/login_loginTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y_space_96"
+        android:text="账号密码登录"
+        android:textColor="#409be4"
+        android:textSize="@dimen/y_space_28"
+        android:visibility="gone" />
+
+</LinearLayout>
